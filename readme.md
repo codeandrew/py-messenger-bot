@@ -44,3 +44,8 @@ Just run the script
 ```
 
 This will start the Application in port 8080
+
+## Dependencies
+
+- Docker
+- Ngrok
