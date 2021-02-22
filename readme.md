@@ -19,21 +19,28 @@ https://www.facebook.com/pages/create
 
 https://developers.facebook.com/apps/
 
-## Setup Python Project 
-
-
-### Create Venv
-
-### Install
-
-- flask
-- requests
-- pymessenger
 
 ## Setup WebHook
 
-Create App.py
-write code for webhook verification
+Webhook verification
 Run Flask app using ngrok
+- `ngrok http 8080`
+- run application in port 8080
 
+Get your Ngrok Link then in callback url
 
+Verify you webhook in your developer dashboard]
+![verify](./docs/fb_webhook_verify.png)
+
+Add permisions in your chatbot
+![permissions](./docs/fb_webhook_permissions.png)
+
+## Usage
+
+Just run the script
+
+```bash
+./run.sh
+```
+
+This will start the Application in port 8080
